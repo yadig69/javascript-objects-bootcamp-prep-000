@@ -2,4 +2,6 @@ var playlist = {
   "pink Flody": "money"
 }
 
-function updatePlaylist
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
+}
